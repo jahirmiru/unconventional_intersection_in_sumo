@@ -1,0 +1,28 @@
+<nodes>
+    <!-- Center Split Nodes for the 0.5m Island -->
+    <node id="NE_corner" x="5.2" y="5.2" type="priority"/>
+    <node id="SE_corner" x="5.2" y="-5.2" type="priority"/>
+    <node id="SW_corner" x="-5.2" y="-5.2" type="priority"/>
+    <node id="NW_corner" x="-5.2" y="5.2" type="priority"/>
+
+    <node id="end_N" x="0" y="500" type="dead_end"/>
+    <node id="end_S" x="0" y="-500" type="dead_end"/>
+    <node id="end_E" x="500" y="0" type="dead_end"/>
+    <node id="end_W" x="-500" y="0" type="dead_end"/>
+
+    <!-- East U-turn Bulge Nodes -->
+    <node id="E_out" x="150" y="9.95" type="priority"/>
+    <node id="E_in" x="150" y="-9.95" type="priority"/>
+
+    <!-- West U-turn Bulge Nodes -->
+    <node id="W_out" x="-150" y="-9.95" type="priority"/>
+    <node id="W_in" x="-150" y="9.95" type="priority"/>
+
+    <!-- North U-turn Bulge Nodes -->
+    <node id="N_out" x="-9.95" y="150" type="priority"/>
+    <node id="N_in" x="9.95" y="150" type="priority"/>
+
+    <!-- South U-turn Bulge Nodes -->
+    <node id="S_out" x="9.95" y="-150" type="priority"/>
+    <node id="S_in" x="-9.95" y="-150" type="priority"/>
+</nodes>

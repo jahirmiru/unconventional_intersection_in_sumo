@@ -1,0 +1,13 @@
+<configuration>
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="routed.rou.xml"/>
+    </input>
+    <processing>
+        <lateral-resolution value="0.8"/>
+    </processing>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+</configuration>

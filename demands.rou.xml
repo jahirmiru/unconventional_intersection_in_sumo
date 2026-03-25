@@ -1,0 +1,67 @@
+<routes>\n
+    <vType id="bus" vClass="bus" length="12.0" maxSpeed="16.67" speedFactor="0.5" speedDev="0.0" guiShape="bus" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="0.1" latAlignment="center" minGapLat="0.6"/>
+    <vType id="car" vClass="passenger" length="4.5" maxSpeed="16.67" speedFactor="1.0" speedDev="0.0" guiShape="passenger" lcStrategic="2.0" lcCooperative="1.0" lcSpeedGain="0.1" latAlignment="center" minGapLat="0.6"/>
+    <vType id="autorickshaw" vClass="passenger" length="2.5" maxSpeed="5.56" speedFactor="0.5" speedDev="0.0" guiShape="passenger/sedan" width="1.4" lcStrategic="0.1" lcCooperative="0.1" lcSpeedGain="3.0" lcAssertive="2.0" lcKeepRight="0.1" latAlignment="center" minGapLat="0.6"/>
+    <vType id="motorcycle" vClass="motorcycle" length="2.2" width="0.8" maxSpeed="16.67" speedFactor="1.0" speedDev="0.0" guiShape="motorcycle" lcStrategic="2.0" lcCooperative="1.0" lcSpeedGain="0.1" latAlignment="compact" minGapLat="0.1" lcSublane="2.0"/>
+    <vType id="truck" vClass="truck" length="10.0" maxSpeed="11.11" speedFactor="0.3333" speedDev="0.0" guiShape="truck" lcStrategic="2.0" lcCooperative="1.0" lcSpeedGain="0.1" latAlignment="center" minGapLat="0.6"/>
+\n    <flow id="flow_bus_in_N_1_out_S_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_N_1" to="out_S_2"/>
+    <flow id="flow_bus_in_N_1_out_E_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_N_1" to="out_E_2"/>
+    <flow id="flow_bus_in_N_1_out_W_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_N_1" to="out_W_2"/>
+    <flow id="flow_bus_in_S_1_out_N_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_S_1" to="out_N_2"/>
+    <flow id="flow_bus_in_S_1_out_E_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_S_1" to="out_E_2"/>
+    <flow id="flow_bus_in_S_1_out_W_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_S_1" to="out_W_2"/>
+    <flow id="flow_bus_in_E_1_out_N_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_E_1" to="out_N_2"/>
+    <flow id="flow_bus_in_E_1_out_S_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_E_1" to="out_S_2"/>
+    <flow id="flow_bus_in_E_1_out_W_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_E_1" to="out_W_2"/>
+    <flow id="flow_bus_in_W_1_out_N_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_W_1" to="out_N_2"/>
+    <flow id="flow_bus_in_W_1_out_S_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_W_1" to="out_S_2"/>
+    <flow id="flow_bus_in_W_1_out_E_2" type="bus" begin="0" end="3600" vehsPerHour="10.0" from="in_W_1" to="out_E_2"/>
+    <flow id="flow_car_in_N_1_out_S_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_N_1" to="out_S_2"/>
+    <flow id="flow_car_in_N_1_out_E_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_N_1" to="out_E_2"/>
+    <flow id="flow_car_in_N_1_out_W_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_N_1" to="out_W_2"/>
+    <flow id="flow_car_in_S_1_out_N_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_S_1" to="out_N_2"/>
+    <flow id="flow_car_in_S_1_out_E_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_S_1" to="out_E_2"/>
+    <flow id="flow_car_in_S_1_out_W_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_S_1" to="out_W_2"/>
+    <flow id="flow_car_in_E_1_out_N_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_E_1" to="out_N_2"/>
+    <flow id="flow_car_in_E_1_out_S_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_E_1" to="out_S_2"/>
+    <flow id="flow_car_in_E_1_out_W_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_E_1" to="out_W_2"/>
+    <flow id="flow_car_in_W_1_out_N_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_W_1" to="out_N_2"/>
+    <flow id="flow_car_in_W_1_out_S_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_W_1" to="out_S_2"/>
+    <flow id="flow_car_in_W_1_out_E_2" type="car" begin="0" end="3600" vehsPerHour="66.66666666666667" from="in_W_1" to="out_E_2"/>
+    <flow id="flow_autorickshaw_in_N_1_out_S_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_N_1" to="out_S_2"/>
+    <flow id="flow_autorickshaw_in_N_1_out_E_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_N_1" to="out_E_2"/>
+    <flow id="flow_autorickshaw_in_N_1_out_W_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_N_1" to="out_W_2"/>
+    <flow id="flow_autorickshaw_in_S_1_out_N_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_S_1" to="out_N_2"/>
+    <flow id="flow_autorickshaw_in_S_1_out_E_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_S_1" to="out_E_2"/>
+    <flow id="flow_autorickshaw_in_S_1_out_W_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_S_1" to="out_W_2"/>
+    <flow id="flow_autorickshaw_in_E_1_out_N_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_E_1" to="out_N_2"/>
+    <flow id="flow_autorickshaw_in_E_1_out_S_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_E_1" to="out_S_2"/>
+    <flow id="flow_autorickshaw_in_E_1_out_W_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_E_1" to="out_W_2"/>
+    <flow id="flow_autorickshaw_in_W_1_out_N_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_W_1" to="out_N_2"/>
+    <flow id="flow_autorickshaw_in_W_1_out_S_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_W_1" to="out_S_2"/>
+    <flow id="flow_autorickshaw_in_W_1_out_E_2" type="autorickshaw" begin="0" end="3600" vehsPerHour="83.33333333333333" from="in_W_1" to="out_E_2"/>
+    <flow id="flow_motorcycle_in_N_1_out_S_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_N_1" to="out_S_2"/>
+    <flow id="flow_motorcycle_in_N_1_out_E_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_N_1" to="out_E_2"/>
+    <flow id="flow_motorcycle_in_N_1_out_W_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_N_1" to="out_W_2"/>
+    <flow id="flow_motorcycle_in_S_1_out_N_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_S_1" to="out_N_2"/>
+    <flow id="flow_motorcycle_in_S_1_out_E_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_S_1" to="out_E_2"/>
+    <flow id="flow_motorcycle_in_S_1_out_W_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_S_1" to="out_W_2"/>
+    <flow id="flow_motorcycle_in_E_1_out_N_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_E_1" to="out_N_2"/>
+    <flow id="flow_motorcycle_in_E_1_out_S_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_E_1" to="out_S_2"/>
+    <flow id="flow_motorcycle_in_E_1_out_W_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_E_1" to="out_W_2"/>
+    <flow id="flow_motorcycle_in_W_1_out_N_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_W_1" to="out_N_2"/>
+    <flow id="flow_motorcycle_in_W_1_out_S_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_W_1" to="out_S_2"/>
+    <flow id="flow_motorcycle_in_W_1_out_E_2" type="motorcycle" begin="0" end="3600" vehsPerHour="166.66666666666666" from="in_W_1" to="out_E_2"/>
+    <flow id="flow_truck_in_N_1_out_S_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_N_1" to="out_S_2"/>
+    <flow id="flow_truck_in_N_1_out_E_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_N_1" to="out_E_2"/>
+    <flow id="flow_truck_in_N_1_out_W_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_N_1" to="out_W_2"/>
+    <flow id="flow_truck_in_S_1_out_N_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_S_1" to="out_N_2"/>
+    <flow id="flow_truck_in_S_1_out_E_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_S_1" to="out_E_2"/>
+    <flow id="flow_truck_in_S_1_out_W_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_S_1" to="out_W_2"/>
+    <flow id="flow_truck_in_E_1_out_N_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_E_1" to="out_N_2"/>
+    <flow id="flow_truck_in_E_1_out_S_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_E_1" to="out_S_2"/>
+    <flow id="flow_truck_in_E_1_out_W_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_E_1" to="out_W_2"/>
+    <flow id="flow_truck_in_W_1_out_N_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_W_1" to="out_N_2"/>
+    <flow id="flow_truck_in_W_1_out_S_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_W_1" to="out_S_2"/>
+    <flow id="flow_truck_in_W_1_out_E_2" type="truck" begin="0" end="3600" vehsPerHour="3.3333333333333335" from="in_W_1" to="out_E_2"/>
+</routes>

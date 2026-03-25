@@ -1,0 +1,22 @@
+<edges>
+    <edge id="in_N_1" from="end_N" to="N_in" priority="2" numLanes="3" width="3.3" speed="33.33" shape="5.2,500 5.2,170 9.95,150" spreadType="center"/>
+    <edge id="in_N_2" from="N_in" to="NE_corner" priority="2" numLanes="3" width="3.3" speed="33.33" shape="9.95,150 5.2,130 5.2,5.2" spreadType="center"/>
+    <edge id="out_N_1" from="NW_corner" to="N_out" priority="2" numLanes="3" width="3.3" speed="33.33" shape="-5.2,5.2 -5.2,130 -9.95,150" spreadType="center"/>
+    <edge id="out_N_2" from="N_out" to="end_N" priority="2" numLanes="3" width="3.3" speed="33.33" shape="-9.95,150 -5.2,170 -5.2,500" spreadType="center"/>
+    <edge id="turn_N" from="N_out" to="N_in" priority="2" numLanes="2" width="3.3" speed="4.17" shape="-9.95,150 -5,160 5,160 9.95,150" spreadType="center"/>
+    <edge id="in_S_1" from="end_S" to="S_in" priority="2" numLanes="3" width="3.3" speed="33.33" shape="-5.2,-500 -5.2,-170 -9.95,-150" spreadType="center"/>
+    <edge id="in_S_2" from="S_in" to="SW_corner" priority="2" numLanes="3" width="3.3" speed="33.33" shape="-9.95,-150 -5.2,-130 -5.2,-5.2" spreadType="center"/>
+    <edge id="out_S_1" from="SE_corner" to="S_out" priority="2" numLanes="3" width="3.3" speed="33.33" shape="5.2,-5.2 5.2,-130 9.95,-150" spreadType="center"/>
+    <edge id="out_S_2" from="S_out" to="end_S" priority="2" numLanes="3" width="3.3" speed="33.33" shape="9.95,-150 5.2,-170 5.2,-500" spreadType="center"/>
+    <edge id="turn_S" from="S_out" to="S_in" priority="2" numLanes="2" width="3.3" speed="4.17" shape="9.95,-150 5,-160 -5,-160 -9.95,-150" spreadType="center"/>
+    <edge id="in_E_1" from="end_E" to="E_in" priority="2" numLanes="3" width="3.3" speed="33.33" shape="500,-5.2 170,-5.2 150,-9.95" spreadType="center"/>
+    <edge id="in_E_2" from="E_in" to="SE_corner" priority="2" numLanes="3" width="3.3" speed="33.33" shape="150,-9.95 130,-5.2 5.2,-5.2" spreadType="center"/>
+    <edge id="out_E_1" from="NE_corner" to="E_out" priority="2" numLanes="3" width="3.3" speed="33.33" shape="5.2,5.2 130,5.2 150,9.95" spreadType="center"/>
+    <edge id="out_E_2" from="E_out" to="end_E" priority="2" numLanes="3" width="3.3" speed="33.33" shape="150,9.95 170,5.2 500,5.2" spreadType="center"/>
+    <edge id="turn_E" from="E_out" to="E_in" priority="2" numLanes="2" width="3.3" speed="4.17" shape="150,9.95 160,5 160,-5 150,-9.95" spreadType="center"/>
+    <edge id="in_W_1" from="end_W" to="W_in" priority="2" numLanes="3" width="3.3" speed="33.33" shape="-500,5.2 -170,5.2 -150,9.95" spreadType="center"/>
+    <edge id="in_W_2" from="W_in" to="NW_corner" priority="2" numLanes="3" width="3.3" speed="33.33" shape="-150,9.95 -130,5.2 -5.2,5.2" spreadType="center"/>
+    <edge id="out_W_1" from="SW_corner" to="W_out" priority="2" numLanes="3" width="3.3" speed="33.33" shape="-5.2,-5.2 -130,-5.2 -150,-9.95" spreadType="center"/>
+    <edge id="out_W_2" from="W_out" to="end_W" priority="2" numLanes="3" width="3.3" speed="33.33" shape="-150,-9.95 -170,-5.2 -500,-5.2" spreadType="center"/>
+    <edge id="turn_W" from="W_out" to="W_in" priority="2" numLanes="2" width="3.3" speed="4.17" shape="-150,-9.95 -160,-5 -160,5 -150,9.95" spreadType="center"/>
+</edges>
